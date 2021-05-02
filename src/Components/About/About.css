@@ -9,6 +9,7 @@
   .about__img img {
     width: 450px;
     height: 450px;
+    margin-right:50px;
   }
   .about__info {
     /* color: #fff; */

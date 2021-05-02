@@ -7,7 +7,7 @@ import { faTwitterSquare, faFacebook, faInstagram, faGithub} from "@fortawesome/
 const ProjectDetails = ({project}) => {
    
     return (
-        <div className=" col-sm-12 col-md-4" data-aos="fade-up">
+        <div className="col-md-4 col-sm-12" >
         <div className="service-box">
            <img className='project-image' src={project.image} alt=""/>
            <h4><a href="">{project.name}</a></h4>
